@@ -1,0 +1,40 @@
+{
+    "conferences": [
+        {
+            "name": "Javaland",
+            "from": "2020-03-23T09:00:00+00:00",
+            "to": "2020-03-25T09:00:00+00:00",
+            "topics": ["Java", "Web"]
+        },
+        {
+            "name": "JVM Con",
+            "from": "2020-05-23T09:00:00+00:00",
+            "to": "2020-05-25T09:00:00+00:00",
+            "topics": ["Java", "JVM"]
+        },
+        {
+            "name": "Generic Java Conference",
+            "from": "2020-08-23T09:00:00+00:00",
+            "to": "2020-08-25T09:00:00+00:00",
+            "topics": ["Java", "IoT"]
+        },
+        {
+            "name": "Javaland",
+            "from": "2019-03-23T09:00:00+00:00",
+            "to": "2019-03-25T09:00:00+00:00",
+            "topics": ["Java", "Web"]
+        },
+        {
+            "name": "JVM Con",
+            "from": "2019-05-23T09:00:00+00:00",
+            "to": "2019-05-25T09:00:00+00:00",
+            "topics": ["Java", "JVM"]
+        },
+        {
+            "name": "Generic Java Conference",
+            "from": "2019-08-23T09:00:00+00:00",
+            "to": "2019-08-25T09:00:00+00:00",
+            "topics": ["Java", "IoT"]
+        }
+    ]
+}

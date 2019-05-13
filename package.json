@@ -1,0 +1,26 @@
+{
+  "name": "pd-pac-conference-initdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node --inspect=9229 ./node_modules/jest/bin/jest.js",
+    "package": "node-lambda package",
+    "deployDev": "node-lambda deploy -e dev -f deploy-dev.env",
+    "deployProd": "node-lambda deploy -e prod -f deploy-prod.env",
+    "debugLambda": "node --inspect-brk=9229 ./node_modules/node-lambda/bin/node-lambda run --handler src/index.handler --eventFile ./data/event.json --contextFile ./data/context.json --configFile ./deploy.env",
+    "testLambda": "node ./node_modules/node-lambda/bin/node-lambda run --handler src/index.handler --eventFile ./data/event.json --contextFile ./data/context.json --configFile ./deploy.env"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.445.0",
+    "aws-xray-sdk": "^2.3.2"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "jest": "^24.1.0",
+    "node-lambda": "^0.13.0"
+  }
+}
