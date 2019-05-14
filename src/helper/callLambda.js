@@ -1,5 +1,7 @@
-var AWS = require("aws-sdk");
-var lambda = new AWS.Lambda({
+const AWSXRay = require('aws-xray-sdk');
+const AWS = AWSXRay.captureAWS(require("aws-sdk"));
+
+const lambda = new AWS.Lambda({
   region: "eu-central-1"
 });
 
@@ -18,6 +20,10 @@ module.exports = (identifier, payload) => {
         if (error) {
           reject(error);
           return;
+        }
+        if (data.StatusCode !== 200) {
+          console.log("ERROR:", data);
+          reject(new Error("request error."));
         }
         if (data.Payload) {
           resolve(data.Payload);
