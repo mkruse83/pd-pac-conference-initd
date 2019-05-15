@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Room A",
+    "nameInLocation": "2.01"
+  },
+  {
+    "name": "Room B",
+    "nameInLocation": "2.02"
+  },
+  {
+    "name": "Room C",
+    "nameInLocation": "3.01"
+  },
+  {
+    "name": "Hamburg",
+    "nameInLocation": "2 OG links"
+  },
+  {
+    "name": "Berlin",
+    "nameInLocation": "56 OG Rechts"
+  },
+  {
+    "id": 1,
+    "name": "Paris",
+    "nameInLocation": "51007"
+  },
+  {
+    "id": 1,
+    "name": "London",
+    "nameInLocation": "8004"
+  }
+]

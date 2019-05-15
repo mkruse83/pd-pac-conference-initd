@@ -1,1 +1,11 @@
-{}
+{
+  "callbackWaitsForEmptyEventLoop": true,
+  "logGroupName": "/aws/lambda/pd-pac-conference-initdb",
+  "logStreamName": "2019/05/14/[$LATEST]7ba5437b98a2401b90ece76f2a98858a",
+  "functionName": "pd-pac-conference-initdb",
+  "memoryLimitInMB": "128",
+  "functionVersion": "$LATEST",
+  "invokeid": "bcd54019-33a8-420f-8cf1-6c93abbce1b9",
+  "awsRequestId": "bcd54019-33a8-420f-8cf1-6c93abbce1b9",
+  "invokedFunctionArn": "arn:aws:lambda:eu-central-1:736519287593:function:pd-pac-conference-initdb"
+}

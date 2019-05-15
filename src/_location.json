@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Phantasialand",
+    "address": "Straße 1, 12345 Brühl"
+  },
+  {
+    "name": "Hotel Dorint",
+    "address": "Straße 2, 12345 Bonn"
+  },
+  {
+    "name": "Maritim",
+    "address": "Straße 3, 12345 Berlin"
+  },
+  {
+    "name": "Kölner Zoo",
+    "address": "Straße 4, 12345 Köln"
+  },
+  {
+    "name": "PRODYNA SE Office",
+    "address": "Straße 5, 12345 Eschborn"
+  }
+]

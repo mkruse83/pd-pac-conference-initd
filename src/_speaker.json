@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Martin Kruse",
+    "title": "Prof. Dr. Dr.",
+    "company": "PRODYNA SE"
+  },
+  {
+    "name": "Hans Wurst",
+    "title": "Mr.",
+    "company": "PRODYNA SE"
+  },
+  {
+    "name": "Hanna Wurst",
+    "title": "Dr.",
+    "company": "PRODYNA SE"
+  },
+  {
+    "name": "Max Mustermann",
+    "title": "Mr.",
+    "company": "PRODYNA SE"
+  },
+  {
+    "name": "Bill Gates",
+    "title": "Mr.",
+    "company": "Microsoft"
+  },
+  {
+    "name": "Linus Torvalds",
+    "title": "Mr.",
+    "company": "University of Helsinki"
+  }
+]
