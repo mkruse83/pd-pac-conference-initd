@@ -1,5 +1,6 @@
 // require("aws-xray-sdk");
 const confs = require("./_confs.json");
+// const fixConfs = require("./_fixData.json");
 const locations = require("./_location.json");
 const talks = require("./_talkTitles.json");
 const room = require("./_room.json");
@@ -25,8 +26,8 @@ const getRandom = (min, max) => {
     return Math.round(Math.random() * (+max - +min) + +min);
 };
 
-const getRandomarray = (arr) => {
-    const arrayLength = getRandom(1, 3);
+const getRandomarray = (arr, min = 1, max = 3) => {
+    const arrayLength = getRandom(Math.min(arr.length, min), Math.min(arr.length, max));
     const result = [];
     for (let i = 0; i < arrayLength; i++) {
         result.push(getRandomValue(arr));
@@ -47,8 +48,8 @@ const createConf = (conf) => {
     let current = new Date(from);
 
     result.talks = [];
+    const rooms = getRandomarray(room, 2, 4);
     while (current.getTime() < to.getTime()) {
-        const rooms = getRandomarray(room);
         rooms.forEach(room => {
             let currentTime = new Date(current);
             while (currentTime.getHours() < 17) {
@@ -65,8 +66,8 @@ const createConf = (conf) => {
                 result.talks.push(talk);
                 currentTime = new Date(targetTime);
             }
-            current.setDate(current.getDate() + 1);
         });
+        current.setDate(current.getDate() + 1);
     }
 
     return result;
@@ -188,4 +189,5 @@ exports.handler = async () => {
         newConfs.push(newConf);
     });
     return addConfs(newConfs);
+    // return addConfs(fixConfs);
 };

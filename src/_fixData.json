@@ -1,0 +1,1229 @@
+[
+  {
+    "id": "conference-2019-2|1553331600000#Javaland",
+    "name": "Javaland",
+    "from": "2019-03-23T09:00:00.000Z",
+    "to": "2019-03-25T17:00:00.000Z",
+    "topics": [
+      "SA"
+    ],
+    "location": {
+      "name": "Kölner Zoo",
+      "address": "Straße 4, 12345 Köln"
+    },
+    "talks": [
+      {
+        "from": "2019-03-23T09:00:00.000Z",
+        "to": "2019-03-23T11:00:00.000Z",
+        "name": "PWA - Super Caching",
+        "room": {
+          "name": "Room A",
+          "nameInLocation": "2.01"
+        },
+        "speaker": {
+          "company": "Microsoft",
+          "name": "Bill Gates",
+          "title": "Mr."
+        },
+        "topics": [
+          "Progressive Webapp",
+          "Java"
+        ]
+      },
+      {
+        "from": "2019-03-23T11:00:00.000Z",
+        "to": "2019-03-23T13:00:00.000Z",
+        "name": "PWA - Super Caching",
+        "room": {
+          "name": "Room A",
+          "nameInLocation": "2.01"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hanna Wurst",
+          "title": "Dr."
+        },
+        "topics": [
+          "Java",
+          "JVM"
+        ]
+      },
+      {
+        "from": "2019-03-23T13:00:00.000Z",
+        "to": "2019-03-23T15:00:00.000Z",
+        "name": "PWA - Cachinghölle",
+        "room": {
+          "name": "Room A",
+          "nameInLocation": "2.01"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Martin Kruse",
+          "title": "Prof. Dr. Dr."
+        },
+        "topics": [
+          "Javascript",
+          "AWS",
+          "SA"
+        ]
+      },
+      {
+        "from": "2019-03-23T15:00:00.000Z",
+        "to": "2019-03-23T17:00:00.000Z",
+        "name": "PWA - Cachinghölle",
+        "room": {
+          "name": "Room A",
+          "nameInLocation": "2.01"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Max Mustermann",
+          "title": "Mr."
+        },
+        "topics": [
+          "SA",
+          "Javascript",
+          "Javascript"
+        ]
+      },
+      {
+        "from": "2019-03-24T09:00:00.000Z",
+        "to": "2019-03-24T11:00:00.000Z",
+        "name": "Azure ist eigenartig",
+        "room": {
+          "name": "Hamburg",
+          "nameInLocation": "2 OG links"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hans Wurst",
+          "title": "Mr."
+        },
+        "topics": [
+          "SA",
+          "SA"
+        ]
+      },
+      {
+        "from": "2019-03-24T11:00:00.000Z",
+        "to": "2019-03-24T13:00:00.000Z",
+        "name": "Java ist auch eine Insel",
+        "room": {
+          "name": "Hamburg",
+          "nameInLocation": "2 OG links"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hanna Wurst",
+          "title": "Dr."
+        },
+        "topics": [
+          "JVM",
+          "JVM"
+        ]
+      },
+      {
+        "from": "2019-03-24T13:00:00.000Z",
+        "to": "2019-03-24T15:00:00.000Z",
+        "name": "PWA - Super Caching",
+        "room": {
+          "name": "Hamburg",
+          "nameInLocation": "2 OG links"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hans Wurst",
+          "title": "Mr."
+        },
+        "topics": [
+          "AWS",
+          "AWS",
+          "JVM"
+        ]
+      },
+      {
+        "from": "2019-03-24T15:00:00.000Z",
+        "to": "2019-03-24T17:00:00.000Z",
+        "name": "Azure ist cool",
+        "room": {
+          "name": "Hamburg",
+          "nameInLocation": "2 OG links"
+        },
+        "speaker": {
+          "company": "University of Helsinki",
+          "name": "Linus Torvalds",
+          "title": "Mr."
+        },
+        "topics": [
+          "SA",
+          "Javascript",
+          "SA"
+        ]
+      },
+      {
+        "from": "2019-03-25T09:00:00.000Z",
+        "to": "2019-03-25T11:00:00.000Z",
+        "name": "Ich kann Java nicht leiden",
+        "room": {
+          "name": "Room C",
+          "nameInLocation": "3.01"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hanna Wurst",
+          "title": "Dr."
+        },
+        "topics": [
+          "AWS",
+          "AWS",
+          "SA"
+        ]
+      },
+      {
+        "from": "2019-03-25T11:00:00.000Z",
+        "to": "2019-03-25T13:00:00.000Z",
+        "name": "Java ist auch eine Insel",
+        "room": {
+          "name": "Room C",
+          "nameInLocation": "3.01"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Max Mustermann",
+          "title": "Mr."
+        },
+        "topics": [
+          "SA",
+          "Javascript"
+        ]
+      },
+      {
+        "from": "2019-03-25T13:00:00.000Z",
+        "to": "2019-03-25T15:00:00.000Z",
+        "name": "Java ist auch eine Insel",
+        "room": {
+          "name": "Room C",
+          "nameInLocation": "3.01"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Max Mustermann",
+          "title": "Mr."
+        },
+        "topics": [
+          "Javascript"
+        ]
+      },
+      {
+        "from": "2019-03-25T15:00:00.000Z",
+        "to": "2019-03-25T17:00:00.000Z",
+        "name": "Java ist auch eine Insel",
+        "room": {
+          "name": "Room C",
+          "nameInLocation": "3.01"
+        },
+        "speaker": {
+          "company": "Microsoft",
+          "name": "Bill Gates",
+          "title": "Mr."
+        },
+        "topics": [
+          "Javascript",
+          "JVM"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "conference-2019-4|1558602000000#JVM Con",
+    "name": "JVM Con",
+    "from": "2019-05-23T09:00:00.000Z",
+    "to": "2019-05-25T17:00:00.000Z",
+    "topics": [
+      "AWS",
+      "JVM",
+      "JVM"
+    ],
+    "location": {
+      "name": "Phantasialand",
+      "address": "Straße 1, 12345 Brühl"
+    },
+    "talks": [
+      {
+        "from": "2019-05-23T09:00:00.000Z",
+        "to": "2019-05-23T11:00:00.000Z",
+        "name": "PWA - Cachinghölle",
+        "room": {
+          "name": "Berlin",
+          "nameInLocation": "56 OG Rechts"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Martin Kruse",
+          "title": "Prof. Dr. Dr."
+        },
+        "topics": [
+          "SA",
+          "AWS",
+          "Javascript"
+        ]
+      },
+      {
+        "from": "2019-05-23T11:00:00.000Z",
+        "to": "2019-05-23T13:00:00.000Z",
+        "name": "PWA - Cachinghölle",
+        "room": {
+          "name": "Berlin",
+          "nameInLocation": "56 OG Rechts"
+        },
+        "speaker": {
+          "company": "University of Helsinki",
+          "name": "Linus Torvalds",
+          "title": "Mr."
+        },
+        "topics": [
+          "Javascript"
+        ]
+      },
+      {
+        "from": "2019-05-23T13:00:00.000Z",
+        "to": "2019-05-23T15:00:00.000Z",
+        "name": "PWA - Cachinghölle",
+        "room": {
+          "name": "Berlin",
+          "nameInLocation": "56 OG Rechts"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hanna Wurst",
+          "title": "Dr."
+        },
+        "topics": [
+          "JVM"
+        ]
+      },
+      {
+        "from": "2019-05-24T09:00:00.000Z",
+        "to": "2019-05-24T11:00:00.000Z",
+        "name": "Azure ist eigenartig",
+        "room": {
+          "name": "Room B",
+          "nameInLocation": "2.02"
+        },
+        "speaker": {
+          "company": "University of Helsinki",
+          "name": "Linus Torvalds",
+          "title": "Mr."
+        },
+        "topics": [
+          "Java",
+          "AWS",
+          "AWS"
+        ]
+      },
+      {
+        "from": "2019-05-24T11:00:00.000Z",
+        "to": "2019-05-24T13:00:00.000Z",
+        "name": "PWA - Super Caching",
+        "room": {
+          "name": "Room B",
+          "nameInLocation": "2.02"
+        },
+        "speaker": {
+          "company": "University of Helsinki",
+          "name": "Linus Torvalds",
+          "title": "Mr."
+        },
+        "topics": [
+          "Java",
+          "JVM"
+        ]
+      },
+      {
+        "from": "2019-05-24T13:00:00.000Z",
+        "to": "2019-05-24T15:00:00.000Z",
+        "name": "Azure ist cool",
+        "room": {
+          "name": "Room B",
+          "nameInLocation": "2.02"
+        },
+        "speaker": {
+          "company": "University of Helsinki",
+          "name": "Linus Torvalds",
+          "title": "Mr."
+        },
+        "topics": [
+          "Javascript",
+          "SA",
+          "SA"
+        ]
+      },
+      {
+        "from": "2019-05-25T09:00:00.000Z",
+        "to": "2019-05-25T11:00:00.000Z",
+        "name": "PWA - Cachinghölle",
+        "room": {
+          "name": "Hamburg",
+          "nameInLocation": "2 OG links"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hanna Wurst",
+          "title": "Dr."
+        },
+        "topics": [
+          "Progressive Webapp",
+          "SA"
+        ]
+      },
+      {
+        "from": "2019-05-25T11:00:00.000Z",
+        "to": "2019-05-25T13:00:00.000Z",
+        "name": "PWA - Super Caching",
+        "room": {
+          "name": "Hamburg",
+          "nameInLocation": "2 OG links"
+        },
+        "speaker": {
+          "company": "Microsoft",
+          "name": "Bill Gates",
+          "title": "Mr."
+        },
+        "topics": [
+          "JVM",
+          "Javascript"
+        ]
+      },
+      {
+        "from": "2019-05-25T13:00:00.000Z",
+        "to": "2019-05-25T15:00:00.000Z",
+        "name": "Java ist auch eine Insel",
+        "room": {
+          "name": "Hamburg",
+          "nameInLocation": "2 OG links"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Martin Kruse",
+          "title": "Prof. Dr. Dr."
+        },
+        "topics": [
+          "SA",
+          "Javascript"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "conference-2019-7|1566550800000#Generic Java Conference",
+    "name": "Generic Java Conference",
+    "from": "2019-08-23T09:00:00.000Z",
+    "to": "2019-08-25T17:00:00.000Z",
+    "topics": [
+      "Java"
+    ],
+    "location": {
+      "name": "PRODYNA SE Office",
+      "address": "Straße 5, 12345 Eschborn"
+    },
+    "talks": [
+      {
+        "from": "2019-08-23T09:00:00.000Z",
+        "to": "2019-08-23T11:00:00.000Z",
+        "name": "PWA - Cachinghölle",
+        "room": {
+          "name": "Room B",
+          "nameInLocation": "2.02"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Max Mustermann",
+          "title": "Mr."
+        },
+        "topics": [
+          "JVM",
+          "SA"
+        ]
+      },
+      {
+        "from": "2019-08-23T11:00:00.000Z",
+        "to": "2019-08-23T13:00:00.000Z",
+        "name": "PWA - Cachinghölle",
+        "room": {
+          "name": "Room B",
+          "nameInLocation": "2.02"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hanna Wurst",
+          "title": "Dr."
+        },
+        "topics": [
+          "SA"
+        ]
+      },
+      {
+        "from": "2019-08-23T13:00:00.000Z",
+        "to": "2019-08-23T15:00:00.000Z",
+        "name": "Azure ist cool",
+        "room": {
+          "name": "Room B",
+          "nameInLocation": "2.02"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Martin Kruse",
+          "title": "Prof. Dr. Dr."
+        },
+        "topics": [
+          "AWS"
+        ]
+      },
+      {
+        "from": "2019-08-24T09:00:00.000Z",
+        "to": "2019-08-24T11:00:00.000Z",
+        "name": "PWA - Super Caching",
+        "room": {
+          "name": "Hamburg",
+          "nameInLocation": "2 OG links"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Max Mustermann",
+          "title": "Mr."
+        },
+        "topics": [
+          "Javascript",
+          "AWS"
+        ]
+      },
+      {
+        "from": "2019-08-24T11:00:00.000Z",
+        "to": "2019-08-24T13:00:00.000Z",
+        "name": "PWA - Cachinghölle",
+        "room": {
+          "name": "Hamburg",
+          "nameInLocation": "2 OG links"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Max Mustermann",
+          "title": "Mr."
+        },
+        "topics": [
+          "SA",
+          "Java"
+        ]
+      },
+      {
+        "from": "2019-08-24T13:00:00.000Z",
+        "to": "2019-08-24T15:00:00.000Z",
+        "name": "Java ist auch eine Insel",
+        "room": {
+          "name": "Hamburg",
+          "nameInLocation": "2 OG links"
+        },
+        "speaker": {
+          "company": "Microsoft",
+          "name": "Bill Gates",
+          "title": "Mr."
+        },
+        "topics": [
+          "Javascript"
+        ]
+      },
+      {
+        "from": "2019-08-25T09:00:00.000Z",
+        "to": "2019-08-25T11:00:00.000Z",
+        "name": "Java ist auch eine Insel",
+        "room": {
+          "name": "London",
+          "nameInLocation": "8004"
+        },
+        "speaker": {
+          "company": "Microsoft",
+          "name": "Bill Gates",
+          "title": "Mr."
+        },
+        "topics": [
+          "AWS"
+        ]
+      },
+      {
+        "from": "2019-08-25T11:00:00.000Z",
+        "to": "2019-08-25T13:00:00.000Z",
+        "name": "Java ist Super",
+        "room": {
+          "name": "London",
+          "nameInLocation": "8004"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Max Mustermann",
+          "title": "Mr."
+        },
+        "topics": [
+          "AWS",
+          "Javascript",
+          "JVM"
+        ]
+      },
+      {
+        "from": "2019-08-25T13:00:00.000Z",
+        "to": "2019-08-25T15:00:00.000Z",
+        "name": "Ich kann Java nicht leiden",
+        "room": {
+          "name": "London",
+          "nameInLocation": "8004"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Martin Kruse",
+          "title": "Prof. Dr. Dr."
+        },
+        "topics": [
+          "AWS"
+        ]
+      },
+      {
+        "from": "2019-08-26T09:00:00.000Z",
+        "to": "2019-08-26T11:00:00.000Z",
+        "name": "Azure ist cool",
+        "room": {
+          "name": "Paris",
+          "nameInLocation": "51007"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hans Wurst",
+          "title": "Mr."
+        },
+        "topics": [
+          "Progressive Webapp",
+          "SA"
+        ]
+      },
+      {
+        "from": "2019-08-26T11:00:00.000Z",
+        "to": "2019-08-26T13:00:00.000Z",
+        "name": "Azure ist eigenartig",
+        "room": {
+          "name": "Paris",
+          "nameInLocation": "51007"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Max Mustermann",
+          "title": "Mr."
+        },
+        "topics": [
+          "AWS",
+          "SA",
+          "Progressive Webapp"
+        ]
+      },
+      {
+        "from": "2019-08-26T13:00:00.000Z",
+        "to": "2019-08-26T15:00:00.000Z",
+        "name": "Java ist Super",
+        "room": {
+          "name": "Paris",
+          "nameInLocation": "51007"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hanna Wurst",
+          "title": "Dr."
+        },
+        "topics": [
+          "JVM"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "conference-2020-2|1584954000000#Javaland",
+    "name": "Javaland",
+    "from": "2020-03-23T09:00:00.000Z",
+    "to": "2020-03-25T17:00:00.000Z",
+    "topics": [
+      "Javascript"
+    ],
+    "location": {
+      "name": "PRODYNA SE Office",
+      "address": "Straße 5, 12345 Eschborn"
+    },
+    "talks": [
+      {
+        "from": "2020-03-23T09:00:00.000Z",
+        "to": "2020-03-23T11:00:00.000Z",
+        "name": "Ich kann Java nicht leiden",
+        "room": {
+          "name": "Berlin",
+          "nameInLocation": "56 OG Rechts"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hanna Wurst",
+          "title": "Dr."
+        },
+        "topics": [
+          "Javascript"
+        ]
+      },
+      {
+        "from": "2020-03-23T11:00:00.000Z",
+        "to": "2020-03-23T13:00:00.000Z",
+        "name": "PWA - Cachinghölle",
+        "room": {
+          "name": "Berlin",
+          "nameInLocation": "56 OG Rechts"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hans Wurst",
+          "title": "Mr."
+        },
+        "topics": [
+          "JVM",
+          "SA"
+        ]
+      },
+      {
+        "from": "2020-03-23T13:00:00.000Z",
+        "to": "2020-03-23T15:00:00.000Z",
+        "name": "Azure ist eigenartig",
+        "room": {
+          "name": "Berlin",
+          "nameInLocation": "56 OG Rechts"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hanna Wurst",
+          "title": "Dr."
+        },
+        "topics": [
+          "AWS",
+          "AWS",
+          "AWS"
+        ]
+      },
+      {
+        "from": "2020-03-23T15:00:00.000Z",
+        "to": "2020-03-23T17:00:00.000Z",
+        "name": "Ich kann Java nicht leiden",
+        "room": {
+          "name": "Berlin",
+          "nameInLocation": "56 OG Rechts"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Max Mustermann",
+          "title": "Mr."
+        },
+        "topics": [
+          "Javascript",
+          "JVM",
+          "Java"
+        ]
+      },
+      {
+        "from": "2020-03-24T09:00:00.000Z",
+        "to": "2020-03-24T11:00:00.000Z",
+        "name": "PWA - Cachinghölle",
+        "room": {
+          "name": "Berlin",
+          "nameInLocation": "56 OG Rechts"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Max Mustermann",
+          "title": "Mr."
+        },
+        "topics": [
+          "AWS",
+          "AWS"
+        ]
+      },
+      {
+        "from": "2020-03-24T11:00:00.000Z",
+        "to": "2020-03-24T13:00:00.000Z",
+        "name": "Java ist auch eine Insel",
+        "room": {
+          "name": "Berlin",
+          "nameInLocation": "56 OG Rechts"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hanna Wurst",
+          "title": "Dr."
+        },
+        "topics": [
+          "AWS",
+          "JVM"
+        ]
+      },
+      {
+        "from": "2020-03-24T13:00:00.000Z",
+        "to": "2020-03-24T15:00:00.000Z",
+        "name": "PWA - Cachinghölle",
+        "room": {
+          "name": "Berlin",
+          "nameInLocation": "56 OG Rechts"
+        },
+        "speaker": {
+          "company": "Microsoft",
+          "name": "Bill Gates",
+          "title": "Mr."
+        },
+        "topics": [
+          "Javascript"
+        ]
+      },
+      {
+        "from": "2020-03-24T15:00:00.000Z",
+        "to": "2020-03-24T17:00:00.000Z",
+        "name": "Java ist auch eine Insel",
+        "room": {
+          "name": "Berlin",
+          "nameInLocation": "56 OG Rechts"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hanna Wurst",
+          "title": "Dr."
+        },
+        "topics": [
+          "Javascript",
+          "SA"
+        ]
+      },
+      {
+        "from": "2020-03-25T09:00:00.000Z",
+        "to": "2020-03-25T11:00:00.000Z",
+        "name": "Azure ist cool",
+        "room": {
+          "name": "Room B",
+          "nameInLocation": "2.02"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hanna Wurst",
+          "title": "Dr."
+        },
+        "topics": [
+          "Javascript",
+          "Javascript"
+        ]
+      },
+      {
+        "from": "2020-03-25T11:00:00.000Z",
+        "to": "2020-03-25T13:00:00.000Z",
+        "name": "Azure ist cool",
+        "room": {
+          "name": "Room B",
+          "nameInLocation": "2.02"
+        },
+        "speaker": {
+          "company": "Microsoft",
+          "name": "Bill Gates",
+          "title": "Mr."
+        },
+        "topics": [
+          "Progressive Webapp"
+        ]
+      },
+      {
+        "from": "2020-03-25T13:00:00.000Z",
+        "to": "2020-03-25T15:00:00.000Z",
+        "name": "Azure ist eigenartig",
+        "room": {
+          "name": "Room B",
+          "nameInLocation": "2.02"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Max Mustermann",
+          "title": "Mr."
+        },
+        "topics": [
+          "Javascript",
+          "SA"
+        ]
+      },
+      {
+        "from": "2020-03-25T15:00:00.000Z",
+        "to": "2020-03-25T17:00:00.000Z",
+        "name": "Java ist Super",
+        "room": {
+          "name": "Room B",
+          "nameInLocation": "2.02"
+        },
+        "speaker": {
+          "company": "Microsoft",
+          "name": "Bill Gates",
+          "title": "Mr."
+        },
+        "topics": [
+          "JVM",
+          "JVM",
+          "Progressive Webapp"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "conference-2020-4|1590224400000#JVM Con",
+    "name": "JVM Con",
+    "from": "2020-05-23T09:00:00.000Z",
+    "to": "2020-05-25T17:00:00.000Z",
+    "topics": [
+      "JVM",
+      "SA"
+    ],
+    "location": {
+      "name": "PRODYNA SE Office",
+      "address": "Straße 5, 12345 Eschborn"
+    },
+    "talks": [
+      {
+        "from": "2020-05-23T09:00:00.000Z",
+        "to": "2020-05-23T11:00:00.000Z",
+        "name": "Azure ist cool",
+        "room": {
+          "name": "Room C",
+          "nameInLocation": "3.01"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hans Wurst",
+          "title": "Mr."
+        },
+        "topics": [
+          "Javascript",
+          "JVM",
+          "JVM"
+        ]
+      },
+      {
+        "from": "2020-05-23T11:00:00.000Z",
+        "to": "2020-05-23T13:00:00.000Z",
+        "name": "Java ist auch eine Insel",
+        "room": {
+          "name": "Room C",
+          "nameInLocation": "3.01"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Max Mustermann",
+          "title": "Mr."
+        },
+        "topics": [
+          "JVM",
+          "JVM"
+        ]
+      },
+      {
+        "from": "2020-05-23T13:00:00.000Z",
+        "to": "2020-05-23T15:00:00.000Z",
+        "name": "Ich kann Java nicht leiden",
+        "room": {
+          "name": "Room C",
+          "nameInLocation": "3.01"
+        },
+        "speaker": {
+          "company": "Microsoft",
+          "name": "Bill Gates",
+          "title": "Mr."
+        },
+        "topics": [
+          "JVM"
+        ]
+      },
+      {
+        "from": "2020-05-24T09:00:00.000Z",
+        "to": "2020-05-24T11:00:00.000Z",
+        "name": "PWA - Cachinghölle",
+        "room": {
+          "name": "Paris",
+          "nameInLocation": "51007"
+        },
+        "speaker": {
+          "company": "Microsoft",
+          "name": "Bill Gates",
+          "title": "Mr."
+        },
+        "topics": [
+          "Javascript"
+        ]
+      },
+      {
+        "from": "2020-05-24T11:00:00.000Z",
+        "to": "2020-05-24T13:00:00.000Z",
+        "name": "Java ist Super",
+        "room": {
+          "name": "Paris",
+          "nameInLocation": "51007"
+        },
+        "speaker": {
+          "company": "Microsoft",
+          "name": "Bill Gates",
+          "title": "Mr."
+        },
+        "topics": [
+          "AWS",
+          "JVM"
+        ]
+      },
+      {
+        "from": "2020-05-24T13:00:00.000Z",
+        "to": "2020-05-24T15:00:00.000Z",
+        "name": "Azure ist eigenartig",
+        "room": {
+          "name": "Paris",
+          "nameInLocation": "51007"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hanna Wurst",
+          "title": "Dr."
+        },
+        "topics": [
+          "Javascript"
+        ]
+      },
+      {
+        "from": "2020-05-25T09:00:00.000Z",
+        "to": "2020-05-25T11:00:00.000Z",
+        "name": "Azure ist cool",
+        "room": {
+          "name": "Room C",
+          "nameInLocation": "3.01"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hanna Wurst",
+          "title": "Dr."
+        },
+        "topics": [
+          "JVM"
+        ]
+      },
+      {
+        "from": "2020-05-25T11:00:00.000Z",
+        "to": "2020-05-25T13:00:00.000Z",
+        "name": "PWA - Cachinghölle",
+        "room": {
+          "name": "Room C",
+          "nameInLocation": "3.01"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hanna Wurst",
+          "title": "Dr."
+        },
+        "topics": [
+          "Javascript",
+          "Javascript"
+        ]
+      },
+      {
+        "from": "2020-05-25T13:00:00.000Z",
+        "to": "2020-05-25T15:00:00.000Z",
+        "name": "Ich kann Java nicht leiden",
+        "room": {
+          "name": "Room C",
+          "nameInLocation": "3.01"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hans Wurst",
+          "title": "Mr."
+        },
+        "topics": [
+          "Javascript"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "conference-2020-7|1598173200000#Generic Java Conference",
+    "name": "Generic Java Conference",
+    "from": "2020-08-23T09:00:00.000Z",
+    "to": "2020-08-25T17:00:00.000Z",
+    "topics": [
+      "JVM",
+      "Java"
+    ],
+    "location": {
+      "name": "Maritim",
+      "address": "Straße 3, 12345 Berlin"
+    },
+    "talks": [
+      {
+        "from": "2020-08-23T09:00:00.000Z",
+        "to": "2020-08-23T11:00:00.000Z",
+        "name": "PWA - Cachinghölle",
+        "room": {
+          "name": "Room A",
+          "nameInLocation": "2.01"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hans Wurst",
+          "title": "Mr."
+        },
+        "topics": [
+          "AWS"
+        ]
+      },
+      {
+        "from": "2020-08-23T11:00:00.000Z",
+        "to": "2020-08-23T13:00:00.000Z",
+        "name": "Azure ist cool",
+        "room": {
+          "name": "Room A",
+          "nameInLocation": "2.01"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Max Mustermann",
+          "title": "Mr."
+        },
+        "topics": [
+          "Javascript",
+          "Java",
+          "Java"
+        ]
+      },
+      {
+        "from": "2020-08-23T13:00:00.000Z",
+        "to": "2020-08-23T15:00:00.000Z",
+        "name": "Azure ist cool",
+        "room": {
+          "name": "Room A",
+          "nameInLocation": "2.01"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hans Wurst",
+          "title": "Mr."
+        },
+        "topics": [
+          "Java",
+          "Java"
+        ]
+      },
+      {
+        "from": "2020-08-24T09:00:00.000Z",
+        "to": "2020-08-24T11:00:00.000Z",
+        "name": "Ich kann Java nicht leiden",
+        "room": {
+          "name": "Room B",
+          "nameInLocation": "2.02"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Max Mustermann",
+          "title": "Mr."
+        },
+        "topics": [
+          "AWS",
+          "Javascript",
+          "Javascript"
+        ]
+      },
+      {
+        "from": "2020-08-24T11:00:00.000Z",
+        "to": "2020-08-24T13:00:00.000Z",
+        "name": "PWA - Cachinghölle",
+        "room": {
+          "name": "Room B",
+          "nameInLocation": "2.02"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Martin Kruse",
+          "title": "Prof. Dr. Dr."
+        },
+        "topics": [
+          "AWS",
+          "Javascript",
+          "Javascript"
+        ]
+      },
+      {
+        "from": "2020-08-24T13:00:00.000Z",
+        "to": "2020-08-24T15:00:00.000Z",
+        "name": "Azure ist eigenartig",
+        "room": {
+          "name": "Room B",
+          "nameInLocation": "2.02"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hanna Wurst",
+          "title": "Dr."
+        },
+        "topics": [
+          "Java"
+        ]
+      },
+      {
+        "from": "2020-08-25T09:00:00.000Z",
+        "to": "2020-08-25T11:00:00.000Z",
+        "name": "Ich kann Java nicht leiden",
+        "room": {
+          "name": "Room B",
+          "nameInLocation": "2.02"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Martin Kruse",
+          "title": "Prof. Dr. Dr."
+        },
+        "topics": [
+          "Progressive Webapp",
+          "SA"
+        ]
+      },
+      {
+        "from": "2020-08-25T11:00:00.000Z",
+        "to": "2020-08-25T13:00:00.000Z",
+        "name": "PWA - Super Caching",
+        "room": {
+          "name": "Room B",
+          "nameInLocation": "2.02"
+        },
+        "speaker": {
+          "company": "PRODYNA SE",
+          "name": "Hanna Wurst",
+          "title": "Dr."
+        },
+        "topics": [
+          "JVM",
+          "SA"
+        ]
+      },
+      {
+        "from": "2020-08-25T13:00:00.000Z",
+        "to": "2020-08-25T15:00:00.000Z",
+        "name": "PWA - Cachinghölle",
+        "room": {
+          "name": "Room B",
+          "nameInLocation": "2.02"
+        },
+        "speaker": {
+          "company": "Microsoft",
+          "name": "Bill Gates",
+          "title": "Mr."
+        },
+        "topics": [
+          "AWS",
+          "SA",
+          "Javascript"
+        ]
+      }
+    ]
+  }
+]
