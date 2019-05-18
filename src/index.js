@@ -55,14 +55,20 @@ const createConf = (conf) => {
             while (currentTime.getHours() < 17) {
                 let targetTime = new Date(currentTime);
                 targetTime.setHours(targetTime.getHours() + 2);
-                const talk = {
-                    name: getRandomValue(talks),
+                let talk = {
                     from: currentTime,
                     to: targetTime,
                     room: room,
-                    speaker: getRandomValue(speaker),
-                    topics: getRandomarray(topics)
                 };
+                if (getRandom(0,1)) {
+                    talk = {
+                        ...talk,
+                        name: getRandomValue(talks),
+                        speaker: getRandomValue(speaker),
+                        topics: getRandomarray(topics)
+                    };
+
+                }
                 result.talks.push(talk);
                 currentTime = new Date(targetTime);
             }
