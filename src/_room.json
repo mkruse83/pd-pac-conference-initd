@@ -20,12 +20,22 @@
     "nameInLocation": "56 OG Rechts"
   },
   {
-    "id": 1,
     "name": "Paris",
     "nameInLocation": "51007"
   },
   {
-    "id": 1,
+    "name": "München",
+    "nameInLocation": "8007"
+  },
+  {
+    "name": "Köln",
+    "nameInLocation": "20007"
+  },
+  {
+    "name": "Tokyo",
+    "nameInLocation": "407"
+  },
+  {
     "name": "London",
     "nameInLocation": "8004"
   }
