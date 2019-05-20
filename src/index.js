@@ -13,6 +13,61 @@ AWS.config.apiVersions = {
     dynamodb: "2012-08-10",
 };
 
+const createMainTable = {
+    ProvisionedThroughput: {
+        ReadCapacityUnits: 5,
+        WriteCapacityUnits: 5
+    },
+    AttributeDefinitions: [
+        {
+            AttributeName: "partkey",
+            AttributeType: "S"
+        },
+        {
+            AttributeName: "sortkey",
+            AttributeType: "S"
+        }
+    ],
+    KeySchema: [
+        {
+            AttributeName: "partkey",
+            KeyType: "HASH"
+        },
+        {
+            AttributeName: "sortkey",
+            KeyType: "RANGE"
+        },
+    ],
+    TableName: "pac-conference"
+};
+const createOps = {
+    ProvisionedThroughput: {
+        ReadCapacityUnits: 5,
+        WriteCapacityUnits: 5
+    },
+    AttributeDefinitions: [
+        {
+            AttributeName: "partkey",
+            AttributeType: "S"
+        },
+        {
+            AttributeName: "sortkey",
+            AttributeType: "S"
+        }
+    ],
+    KeySchema: [
+        {
+            AttributeName: "partkey",
+            KeyType: "HASH"
+        },
+        {
+            AttributeName: "sortkey",
+            KeyType: "RANGE"
+        },
+    ],
+    TableName: "pac-conference-ops"
+};
+
 const sleep = () => {
     return new Promise((resolve) => setTimeout(resolve, 1000));
 };
@@ -48,7 +103,8 @@ const createConf = (conf) => {
     let current = new Date(from);
 
     result.talks = [];
-    const rooms = getRandomarray(room, 2, 4);
+    const rooms = getRandomarray(room, 2, 4)
+        .filter((room, index, self) => self.indexOf(room) === index);
     while (current.getTime() < to.getTime()) {
         rooms.forEach(room => {
             let currentTime = new Date(current);
@@ -60,7 +116,7 @@ const createConf = (conf) => {
                     to: targetTime,
                     room: room,
                 };
-                if (getRandom(0,1)) {
+                if (getRandom(0, 1)) {
                     talk = {
                         ...talk,
                         name: getRandomValue(talks),
@@ -89,9 +145,9 @@ const addConfs = (confs) => {
     });
 };
 
-const deleteTable = (dynamoDb) => {
+const deleteTable = (dynamoDb, table) => {
     return new Promise((resolve, reject) => {
-        dynamoDb.deleteTable({TableName: "pac-conference"}, (err, data) => {
+        dynamoDb.deleteTable({TableName: table}, (err, data) => {
             if (err) {
                 console.log("ERROR: could not delete", err);
                 reject(err);
@@ -117,35 +173,8 @@ const listTables = (dynamoDb) => {
     });
 };
 
-const createTable = (dynamoDb) => {
+const createTable = (dynamoDb, params) => {
     return new Promise((resolve, reject) => {
-        const params = {
-            ProvisionedThroughput: {
-                ReadCapacityUnits: 5,
-                WriteCapacityUnits: 5
-            },
-            AttributeDefinitions: [
-                {
-                    AttributeName: "uuid",
-                    AttributeType: "S"
-                },
-                {
-                    AttributeName: "sortkey",
-                    AttributeType: "S"
-                }
-            ],
-            KeySchema: [
-                {
-                    AttributeName: "uuid",
-                    KeyType: "HASH"
-                },
-                {
-                    AttributeName: "sortkey",
-                    KeyType: "RANGE"
-                },
-            ],
-            TableName: "pac-conference"
-        };
         dynamoDb.createTable(params, (err, data) => {
             if (err) {
                 console.log("ERROR: could not create", err);
@@ -161,7 +190,8 @@ const createTable = (dynamoDb) => {
 exports.handler = async () => {
     const dynamoDb = new AWS.DynamoDB();
     try {
-        await deleteTable(dynamoDb);
+        await deleteTable(dynamoDb, "pac-conference");
+        await deleteTable(dynamoDb, "pac-conference-ops");
     } catch (e) {
         const test = "Requested resource not found: Table: pac-conference not found";
         if (!e.message.includes(test)) {
@@ -175,7 +205,8 @@ exports.handler = async () => {
         }
         await sleep();
     }
-    await createTable(dynamoDb);
+    await createTable(dynamoDb, createMainTable);
+    await createTable(dynamoDb, createOps);
     while (true) {
         const tables = await listTables(dynamoDb);
         if (tables.indexOf("pac-conference") >= 0) {
